@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: e2e-tests-use-latest-parent-image-sfya
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-869/e2e-tests-use-latest-parent-image-sfya@sha256:5d8fd74a80a1ede16b7e62fdbe0957b695de5b9748988d853423da1250fcaf3d
         imagePullPolicy: Always
         name: container-image
         ports:
