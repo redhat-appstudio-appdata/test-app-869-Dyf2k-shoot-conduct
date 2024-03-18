@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: e2e-tests-parent-image-with-both-tag-digest-lskv
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-869/e2e-tests-parent-image-with-both-tag-digest-lskv@sha256:152eece948f365919ecee792096b0557d1154155e208ae890b31a17cb24d2861
         imagePullPolicy: Always
         name: container-image
         ports:
