@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: pip-e2e-test-whnc
     spec:
       containers:
-      - image: pip-e2e-test:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-869/pip-e2e-test-whnc@sha256:5da78c4e7414833ce49bc66ecca4b0cfc771acfa0281d2415a5233b425909c91
         name: pip-e2e-test
         ports:
         - containerPort: 8081
