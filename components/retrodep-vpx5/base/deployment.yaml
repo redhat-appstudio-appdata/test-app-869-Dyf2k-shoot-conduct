@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: retrodep-vpx5
     spec:
       containers:
-      - image: retrodep:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-869/retrodep-vpx5@sha256:1500866a24403e74a16874888a138b42b6e9443792b54e2597fc02d6c3f827f6
         name: my-retrodep
         ports:
         - containerPort: 8081
