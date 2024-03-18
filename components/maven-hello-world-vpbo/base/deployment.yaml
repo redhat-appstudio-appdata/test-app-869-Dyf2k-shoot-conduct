@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: maven-hello-world-vpbo
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-869/maven-hello-world-vpbo@sha256:04add0d1cce17a38904d945a2515efb175e67494d8efe6a89a9e3a65cf4c7c96
         name: my-java-quarkus
         ports:
         - containerPort: 8081
