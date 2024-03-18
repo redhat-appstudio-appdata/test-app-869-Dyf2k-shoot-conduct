@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: e2e-tests-parent-image-with-digest-only-juus
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-869/e2e-tests-parent-image-with-digest-only-juus@sha256:ba72425993ae7d35aaa49476775f73b5ded6db7dc0798bcabd4ec7fb85b90c0b
         imagePullPolicy: Always
         name: container-image
         ports:
